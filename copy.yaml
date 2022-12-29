@@ -34,7 +34,7 @@
         
     - name: copying webapp
       copy:
-        src: /webapp/target/webapp.war
+        src: ./webapp/target/webapp.war
         dest: /usr/local/tomcat7/webapps/
     
     - name: Starting Tomcat
